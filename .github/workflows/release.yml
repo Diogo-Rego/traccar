@@ -1,6 +1,8 @@
 name: Build Release
 
 on:
+  push:
+    branches: [ tests ]
   workflow_dispatch:
     inputs:
       version:
